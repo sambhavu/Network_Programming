@@ -3,4 +3,4 @@ telnet google.com 80
 ping google.com 
 nmap -sP google.com 
 ping -f google.com 
-
+lsof -i:631
