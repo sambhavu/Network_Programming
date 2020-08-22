@@ -44,7 +44,7 @@ else {
 	print"its something else.\n";
 } 
 
-Unless ("pie eq 'apple'){
+unless (pie eq 'apple'){
 	print "Ew I don t like $pie flavored pie\n";
 } 
 else{ 
@@ -138,7 +138,7 @@ sub interest_report{
 	}
 } 
 
-Sub report_footer { 
+sub report_footer { 
 	print REPORT "\n Our original assumptions: \n"; 
 	print REPORT "Nest egg: $nest_egg\n"; 
 	print REPORT "Number of years: $duration\n"; 
