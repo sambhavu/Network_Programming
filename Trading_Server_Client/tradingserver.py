@@ -1,4 +1,5 @@
 import socket
+import time
 
 prices = [18.8846,
 18.8846,
@@ -158,6 +159,7 @@ while True:
         i = i+1
         data = prices[i]
         datas = str(data)
+        time.sleep(1) 
     except:
         print("End of Day")
         break
