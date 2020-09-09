@@ -102,6 +102,17 @@ Exit 0
 
 
 
+#!/bin/bash
+filename=sample_file
+
+declate -a array1 
+
+array1=( 'cat "$filename"')
+echo ${array1[0]} 
+
+element_count=${#array1[*]}
+echo $element_count 
+
 
 
 
