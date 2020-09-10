@@ -1,0 +1,16 @@
+cat $filename >/dev/null
+
+#contents of file with not list to stdout
+
+rm 4badname 2>/dev/null
+  #so error messages [stderr] deep-sixed.
+  
+  
+cat $filename 2>/dev/null >/dev/null
+#If $filename does not exist, there will be no error message output.
+#if $filename does exist, the contents of the file will not list to stdout
+
+cat /dev/null > /var/log/messages 
+
+cat /dev/null > /var/log/wtmp
+
